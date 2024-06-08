@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+<title>Zegar</title>
+
+<script>
+var ZegarS = null;
+function wyswietlCzas(){
+var TikTak = new Date();
+var godziny = TikTak.getHours();
+var minuty = TikTak.getMinutes();
+var sekundy = TikTak.getSeconds();
+var czas = godziny;
+czas += ((minuty<10) ? ":0" : ":") + minuty;
+czas += ((sekundy<10) ? ":0" : ":") + sekundy;
+document.zegar.wyswietlacz.value = czas;
+ZegarS = setTimeout("wyswietlCzas()",1000);
+}
+</script>
+</head>
+
+<body onLoad="wyswietlCzas()">
+
+<center>
+
+<form name="zegar">
+<input type="text"
+name="wyswietlacz"
+size="8">
+
+<style>
+input[type=text]{
+border-style: dotted;
+border-width: 15px;
+border-radius: 5px;
+border-color: #FF66CC;
+font-style:italic;
+font-family: Verdana,sans-serif;
+padding: 6px;
+margin-top: 55px;
+color: #00FFFF;
+background-color: #6699FF;
+}
+</style>
+</form>
+
+</center>
+
+</body>
+</html>

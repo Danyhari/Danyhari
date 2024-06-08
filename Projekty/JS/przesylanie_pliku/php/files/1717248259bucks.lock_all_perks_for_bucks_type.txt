@@ -1,0 +1,2 @@
+bucks.lock_all_perks_for_bucks_type 40962 483594505412335861 false - Fern
+bucks.lock_all_perks_for_bucks_type 40962 597310434496282685 false - Blue
