@@ -1,5 +1,5 @@
 # 💫 About Me:
-## Hi there 👋, I'm Julia!<br><br>A passionate fullstack developer from Poland.<br><br>- 🔭 I’m currently working on improving my coding skills,<br>- 🌱 I’m currently learning Node.js and .NET,<br>- 📫 How to reach me: jnowak01120@gmail.com,<br>- 😄 Pronouns: she/her.<br>
+## Hi there 👋, I'm Julia!<br><br>A passionate fullstack developer from Poland.<br><br>- 🔭 I’m currently working on improving my coding skills,<br>- 🌱 I’m currently learning Node.js and Flutter,<br>- 📫 How to reach me: jnowak01120@gmail.com,<br>- 😄 Pronouns: she/her.<br>
 
 
 # 💻 Tech Stack:
